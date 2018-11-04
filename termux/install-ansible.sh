@@ -9,7 +9,7 @@ export CONFIG_SHELL=$BIN_SH
 mkdir $TMPDIR
 
 apt install -y python2 python2-dev libffi-dev libsodium-dev openssl-dev libgmp-dev libev-dev
-
+pip2 install --upgrade pip
 EMBED=0 pip2 install gevent
 pip2 install pycrypto
 
